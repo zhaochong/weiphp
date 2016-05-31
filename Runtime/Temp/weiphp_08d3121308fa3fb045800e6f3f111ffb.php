@@ -1,3 +1,0 @@
-<?php
-//000000000000a:17:{s:2:"id";s:1:"2";s:5:"cover";s:2:"10";s:7:"content";s:45:"<p>测试商品之二</p><p>二</p><p>二</p>";s:5:"title";s:15:"测试商品二";s:5:"price";s:5:"30.00";s:4:"imgs";s:2:"10";s:9:"inventory";s:2:"20";s:7:"shop_id";s:1:"1";s:7:"is_show";s:1:"1";s:10:"sale_count";s:1:"0";s:12:"is_recommend";s:1:"0";s:4:"rank";s:1:"0";s:9:"show_time";s:10:"1464597997";s:9:"old_price";s:2:"50";s:4:"type";s:1:"0";s:11:"category_id";s:1:"0";s:8:"imgs_url";a:1:{i:0;s:64:"http://wp.waboon.cn/Uploads/Picture/2016-05-30/574bfdd374315.jpg";}}
-?>
