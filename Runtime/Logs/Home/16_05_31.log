@@ -1,0 +1,27 @@
+[ 2016-05-31T08:46:27+08:00 ] 125.120.147.219 /index.php?s=/addon/Vote/Vote/lists.html&mdm=17
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp-shop.wp_vote' doesn't exist
+
+[ 2016-05-31T09:21:24+08:00 ] 125.120.147.219 /index.php?s=/addon/Vote/Vote/lists.html&mdm=17
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp-shop.wp_vote' doesn't exist
+
+[ 2016-05-31T09:22:14+08:00 ] 125.120.147.219 /index.php?s=/addon/Vote/Vote/lists.html&mdm=17|18
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp-shop.wp_vote' doesn't exist
+
+[ 2016-05-31T09:22:21+08:00 ] 125.120.147.219 /index.php?s=/addon/Vote/ShopVote/lists.html&mdm=17|345
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp-shop.wp_shop_vote' doesn't exist
+
+[ 2016-05-31T09:22:28+08:00 ] 125.120.147.219 /index.php?s=/addon/Vote/Vote/lists.html&mdm=17
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp-shop.wp_vote' doesn't exist
+
+[ 2016-05-31T09:28:05+08:00 ] 125.120.147.219 /index.php?s=/addon/Vote/Vote/lists.html&mdm=17
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weiphp-shop.wp_vote' doesn't exist
+
+[ 2016-05-31T14:40:59+08:00 ] 101.226.233.141 /index.php?s=/home/weixin/index/id/1.html&signature=1b96bab09edf38c3752a66b61e9caee36488e66d&timestamp=1464676859&nonce=640219481
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type_' in 'field list'
+
+[ 2016-05-31T23:20:50+08:00 ] 101.226.62.78 /index.php?s=/home/weixin/index/id/1.html&signature=9488b8e088f576e4f5b59fa810083ccf7069b78d&timestamp=1464708050&nonce=860904878
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type_' in 'field list'
+
+[ 2016-05-31T23:34:29+08:00 ] 101.226.62.78 /index.php?s=/home/weixin/index/id/1.html&signature=427d05bd33e0b2aa7cf2755cb684b06cc3999007&timestamp=1464708869&nonce=1727340720
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'type_' in 'field list'
+

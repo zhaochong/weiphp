@@ -29,7 +29,7 @@ class GoodsController extends BaseController {
 		}
 		$this->assign ( $list_data );
 		$templateFile = $this->model ['template_list'] ? $this->model ['template_list'] : '';
-		$this->display ( $templateFile );
+	    $this->display ( $templateFile );
 	}
 	// 通用插件的编辑模型
 	public function edit() {

@@ -1,0 +1,19 @@
+[ 2016-05-31T08:31:04+08:00 ] 121.42.0.33 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000226s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: mobile /opt/lampp/htdocs/weiphp/Application/Common/Common/function.php 第 2568 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+
