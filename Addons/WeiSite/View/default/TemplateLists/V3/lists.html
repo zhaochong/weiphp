@@ -20,7 +20,12 @@ border-radius: 6px;margin-left: 5px;width: 12px;height: 12px;background: #fff;}
     	<ul>
         <php>foreach($list_data as $k=>$vo){ if($k>2) continue; </php>
         	<li>
+            <?php if(isset($vo['jump_url']) && $vo['jump_url']) { ?>
+                <a href="<?php echo $vo['jump_url']; ?>"><img src="{$vo.cover|get_cover_url}"/></a>
+            <?php } else { ?>
             	<a href="{:U('detail', 'id='.$vo[id])}"><img src="{$vo.cover|get_cover_url}"/></a>
+            <?php } ?>
+            <input type="hidden" value="<?php echo $vo['jump_url']; ?>"/>
             	<span class="title">{$vo.title}</span>
             </li>
          <php>$img_count += 1 ;unset($list_data[$k]); } </php>
@@ -34,7 +39,11 @@ border-radius: 6px;margin-left: 5px;width: 12px;height: 12px;background: #fff;}
     <ul class="big_pic_list">
     <volist name="list_data" id="vo">
     	<li>
+        <?php if(isset($vo['jump_url']) && $vo['jump_url']) { ?>
+            <a href="<?php echo $vo['jump_url']; ?>">
+        <?php } else { ?>
         	<a href="{:U('detail', 'id='.$vo[id])}">
+        <?php } ?>
             	<notempty name="vo.cover"><img src="{$vo.cover|get_cover_url}"/></notempty>
                 <h6>{$vo.title}</h6>
                 <span class="colorless">{$vo.cTime|time_format}</span>
